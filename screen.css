@@ -105,6 +105,10 @@ header {
   max-width: 25em;
 }
 
+body {
+  background-color: #EEEEEE;
+}
+
 main {
   margin-top: 2em;
   margin-left: 16.6667%;
