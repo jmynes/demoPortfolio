@@ -91,7 +91,7 @@ h3 {
 }
 
 h1, h2 {
-  margin-left: 16.6667%;
+  text-align: center;
 }
 
 header {
@@ -101,7 +101,7 @@ header {
 
 #headshot {
   padding-top: 2em;
-  margin-left: 16.6667%; /* -16.6667% of center */
+  /* margin-left: 16.6667%; */ /* -16.6667% of center */
   max-width: 25em;
 }
 
@@ -132,39 +132,6 @@ article iframe {
 
 article h3 {
   text-align: center;
-}
-
-/* 
-  shrunk width by 5%, was just too big. Main now appears more left of center 
-  than before, despite not having moved. (16.6667% from right = 33.3333% from header.)
-*/
-.sidebar {
-  position: fixed;
-  top:0; bottom:0; right: 0;
-  width: 11.6667%; 
-  margin: 0 auto;
-  background: #004FB2; /* A nice blue, reminiscent of Facebook's blue */
-  border-left: 0.2em solid #000000;
-}
-
-.interest {
-  width: 50%;
-  margin-left: 25%;
-  padding-top: 17%;
-}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 1em;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 92%; /* Fixes black bars from aspect ratio */
 }
 
 /* Media queries */
