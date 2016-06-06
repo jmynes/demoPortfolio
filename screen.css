@@ -122,7 +122,7 @@ article p {
   margin-top: 1em;
 }
 
-article img#screenshot {
+aside {
   display: inline-block;
   float: left;
 }
