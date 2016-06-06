@@ -79,6 +79,10 @@ p {
   text-indent: 2em;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 h1 {
   font-size: 4em;
 }
@@ -88,9 +92,6 @@ h2 {
 h3 {
   font-size: 2.5em;
   font-weight: 700;
-}
-
-h1, h2 {
   text-align: center;
 }
 
@@ -112,33 +113,24 @@ main {
   max-width: 56.6667%;
 }
 
+article {
+  display: inline-block;
+  float: left;
+}
+
 article p {
   margin-top: 1em;
 }
 
-aside {
-  display: inline-block;
-  float: left;
+article img#screenshot {
+  float: left; 
+  padding-right: 2em;
 }
 
 article iframe {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
-article h3 {
-  text-align: center;
-}
-
-/*
-article {
-  background-color: green;
-}
-
-aside {
-  background-color: red;
-}
-*/
 
 /* Media queries */
 
