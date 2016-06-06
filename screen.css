@@ -115,11 +115,7 @@ body {
 main {
   margin-top: 2em;
   margin-left: 16.6667%;
-  max-width: 50%;
-}
-
-article {
-  margin-bottom: 4em;
+  max-width: 56.6667%;
 }
 
 article p {
@@ -129,7 +125,6 @@ article p {
 article img#screenshot {
   display: inline-block;
   float: left;
-  padding-right: 2em;
 }
 
 article iframe {
@@ -140,6 +135,16 @@ article iframe {
 article h3 {
   text-align: center;
 }
+
+/*
+article {
+  background-color: green;
+}
+
+aside {
+  background-color: red;
+}
+*/
 
 /* Media queries */
 
