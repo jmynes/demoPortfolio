@@ -95,8 +95,11 @@ h1, h2 {
 }
 
 header {
+  background: #004FB2; /* A nice blue, reminiscent of Facebook's blue. Same as sidebar's color. */
+  color: #FFFFFF;
+  border-bottom: 0.2em solid #000000;
+  text-align: center;
   display: block;
-  /*text-align: center; */
 }
 
 #headshot {
@@ -198,14 +201,8 @@ article h3 {
     display: none; 
   }
 
-  header {
-    background: #004FB2; /* A nice blue, reminiscent of Facebook's blue. Same as sidebar's color. */
-    color: #FFFFFF;
-    border-bottom: 0.2em solid #000000;
-  }
-
   h1, h2 {
-    margin-left: 10%;
+    /* margin-left: 10%; */
   }
 
   h2 {
