@@ -180,15 +180,17 @@ article iframe {
   }
 
   article {
-    text-align: center;
+    text-align: left;
   }
 
   article img#screenshot {
     float: none;
+    padding-left: 1em;
   }
 
   main {
     margin-left: 6.6667%;
+    max-width: 86.6667%;
     text-align: center;
   }
 }
@@ -205,6 +207,12 @@ article iframe {
   
   h3 {
     font-size: 1.25em;
+  }
+
+  article img#screenshot {
+    width: 100%;
+    float: none;
+    padding-left: 1em;
   }
 }
 
