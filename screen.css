@@ -102,12 +102,6 @@ header {
   display: block;
 }
 
-#headshot {
-  padding-top: 2em;
-  /* margin-left: 16.6667%; */ /* -16.6667% of center */
-  max-width: 25em;
-}
-
 body {
   background-color: #EEEEEE;
 }
@@ -162,10 +156,6 @@ aside {
   h3 {
     font-size: 2em;
   }
-
-  #headshot {
-    max-width: 20em;
-  }
 }
 
 /* 40em, tier 2 */
@@ -180,10 +170,6 @@ aside {
   
   h3 {
     font-size: 1.5em;
-  }
-
-  #headshot {
-    max-width: 50%;
   }
 }
 
@@ -206,21 +192,12 @@ aside {
     font-size: 1.5em;
   }
 
-  .sidebar {
-    display: none; 
-  }
-
   h1, h2 {
     /* margin-left: 10%; */
   }
 
   h2 {
     margin-bottom: 1em;
-  }
-
-  #headshot {
-    margin-left: 9%;
-    max-width: 83.3333%;
   }
 
   article {
